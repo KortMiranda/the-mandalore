@@ -1,11 +1,20 @@
-import { BrowserRouter as Router} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
+import Home from './Pages/Home'
+import Merch from './Pages/Merch'
+import Armor from './Pages/Armor'
 
 function App() {
   return (
     <div className="App">
       <Router>
-        
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/merch" component={Merch}/>
+            <Route exact path="/armor" component={Armor}/>
+          </Switch>
       </Router>
     </div>
   );
