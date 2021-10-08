@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
-import Home from './Pages/Home'
+import Home from './Pages/Home/Home'
 import Merch from './Pages/Merch'
 import Armor from './Pages/Armor'
 

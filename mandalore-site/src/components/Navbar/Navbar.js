@@ -16,6 +16,9 @@ function Navbar(props) {
                     <li>
                         <Link to="/armor">Armor</Link>
                     </li>
+                    <li>
+                        <Link to=""><button>Sign Up</button></Link>
+                    </li>
                 </ul>
             </div>
         </nav>
