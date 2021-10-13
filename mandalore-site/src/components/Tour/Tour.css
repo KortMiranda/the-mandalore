@@ -1,0 +1,12 @@
+.tour-container {
+    margin: auto;
+    width: 85%;
+}
+
+table {
+    width: 100%; 
+}
+
+td {
+    border-bottom: solid black 1px;
+}

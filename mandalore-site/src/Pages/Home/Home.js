@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Tour from '../../components/Tour/Tour';
 
 function Home(props) {
     return (
@@ -23,6 +24,7 @@ function Home(props) {
                 <h2>Settle Down</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/TgO_Y9IHC9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <Tour />
         </div>
         
     );
