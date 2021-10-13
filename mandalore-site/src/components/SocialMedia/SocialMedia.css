@@ -1,0 +1,15 @@
+.social-container {
+    position: fixed;
+    top: 200px;
+    display: flex;
+    /* z-index: 100; */
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    /* align-items: right; */
+}
+
+.test {
+    width: 50px;
+}
